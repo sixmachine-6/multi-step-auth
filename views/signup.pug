@@ -1,0 +1,25 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        link(href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet')
+        link(rel="stylesheet" href="index.css")
+body
+    form.form--container.form--signup
+        div
+          label(for='name') name
+          input.inputBox#name(type='text', placeholder='name', required)
+        div
+          label(for='email') Email address
+          input.inputBox#email(type='email', placeholder='you@example.com', )
+        div
+          label(for='password') Password
+          input.inputBox#password(type='password', placeholder='••••••••', required, minlength='8')
+        div
+          label(for='password') Confirm Password
+          input.inputBox#confirmpassword(type='password', placeholder='••••••••', minlength='8')
+        div
+          button Signup
+        
+    script(src="bundle.js")

@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.3",
+    "nodemailer": "^6.9.13",
+    "parcel-bundler": "^1.12.5",
+    "pug": "^3.0.2"
+  },
+  "name": "ms-authentication",
+  "version": "1.0.0",
+  "description": "\"multi-step authentication\"",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch:js": "parcel watch ./public/index.js --out-dir ./public --out-file bundle.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "\"aman shaw\"",
+  "license": "ISC"
+}

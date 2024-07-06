@@ -1,0 +1,7 @@
+extends baseEmail
+
+block content
+    p Hi #{firstName},
+    p Are you trying to #{method}? Here is your otp: #{otp}.
+    p Do not  share the otp with anyone!
+    p If you did n't perform #{method}, please ignore this email and do not share the otp!
